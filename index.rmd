@@ -6,6 +6,16 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<br>
+<br>
+
+:::: {.columns}
+::: {.column width="30%"}
+<img src="files/headshot.jpg" style="width:70%">
+:::
+::: {.column width="60%"}
+Hi! I’m a fourth-year PhD student working in the Psychology Department at UCLA under the advisement of Dr. Martie Haselton. My focus is on the relationship between psychology, hormones, and behavior, particularly for women and sexual minorities. For more information about my research interests, check my Projects page.
+:::
+::::
 
 
-Hi! I’m a fourth-year PhD student in the Psychology Department at UCLA. My focus is on the relationship between psychology, hormones, and behavior, particularly for women and sexual minorities.
