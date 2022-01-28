@@ -2,8 +2,9 @@
 title: "Publications & CV"
 output: html_document
 ---
-*Denotes an undergraduate mentee
+<p class="text-muted">*Denotes an undergraduate mentee.</p>
 
+<br>
 
 Lesko, L. & Miller, C.* (2022, forthcoming). Avoid allowing the ends to justify the means: __Comment.__ _Personality Science_
 
@@ -19,5 +20,6 @@ Lesko, L. (November 2019). Are sexual attraction and sexual desire separable? __
 
 Lesko, L., & Haselton, M. (May 2019). Distinguishing between sexual attraction and sexual desire: The case of asexuality. __Poster__ presented at the 2019 annual meeting of the Human Behavior and Evolution Society
 
+<br>
 
-<a href="#" class="btn btn-default">Download full CV</a>
+<a href="https://github.com/laurenlesko/laurenlesko.github.io/raw/main/files/CV.pdf" class="btn btn-default">Download full CV</a>
