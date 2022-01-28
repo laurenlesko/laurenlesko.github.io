@@ -1,0 +1,23 @@
+---
+title: "Publications & CV"
+output: html_document
+---
+*Denotes an undergraduate mentee
+
+
+Lesko, L. & Miller, C.* (2022, forthcoming). Avoid allowing the ends to justify the means: __Comment.__ _Personality Science_
+
+Lesko, L., Moore, T., & Haselton, M. (2022). Distinguishing Sexual Attraction from Sexual Desire. __Datablitz__ to be presented at the 2022 annual meeting of the Society for Personality and Social Psychology Sexuality Preconference. 
+
+Gangestad, S., Haselton, M., Dinh, T., & Lesko, L. (2021). Characterizing Women’s Desires Across the Ovulation Cycle. _Handbook of Human Mating_ __Chapter__
+
+Miller, C.,* Venkatesh, A.,* Shearin, O.,* Garza, D.,* Lesko, L., & Strickland, L. M. (2021). Investigating Compliance with Public Health Guidance for COVID-19. __Poster__ presented at UCLA’s 2021 Psychology Undergraduate Research Conference
+
+Lesko, L. (May 2020). Distinguishing between sexual attraction and sexual desire. __Talk__ presented to the Social Area of the UCLA Psychology Department
+
+Lesko, L. (November 2019). Are sexual attraction and sexual desire separable? __Talk__ presented to the Quantitative Area of the UCLA Psychology Department
+
+Lesko, L., & Haselton, M. (May 2019). Distinguishing between sexual attraction and sexual desire: The case of asexuality. __Poster__ presented at the 2019 annual meeting of the Human Behavior and Evolution Society
+
+
+<a href="#" class="btn btn-default">Download full CV</a>

@@ -1,0 +1,14 @@
+name: "personal_website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Publications & CV"
+      href: pub_cv.html
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<lnlesko@ucla.edu>
+output:
+  html_document:
+    theme: sandstone

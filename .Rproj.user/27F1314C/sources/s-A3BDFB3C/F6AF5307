@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1643337557572.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3876811962",
+    "id" : "F6AF5307",
+    "lastKnownWriteTime" : 1643339507,
+    "last_content_update" : 1643339507110,
+    "path" : "~/Documents/GitHub/laurenlesko.github.io/pub_cv.rmd",
+    "project_path" : "pub_cv.rmd",
+    "properties" : {
+        "cursorPosition" : "21,0",
+        "scrollLine" : "9",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
