@@ -3,11 +3,13 @@ title: "Projects"
 output: html_document
 ---
 
+
+<br>
+<br>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<br>
-<br>
+
 
 :::: {.columns}
 ::: {.column width="30%"}

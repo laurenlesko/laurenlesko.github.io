@@ -2,7 +2,7 @@ name: "personal_website"
 output_dir: "."
 markdown: kramdown
 navbar:
-  title: "Home"
+  title: "Lauren Lesko"
   right:
     - text: "Publications & CV"
       href: pub_cv.html
