@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1643343241079.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3364378468",
+    "id" : "F55E8A2A",
+    "lastKnownWriteTime" : 1643753062,
+    "last_content_update" : 1643826249928,
+    "path" : "~/Documents/GitHub/laurenlesko.github.io/projects.Rmd",
+    "project_path" : "projects.Rmd",
+    "properties" : {
+        "cursorPosition" : "11,1",
+        "last_setup_crc32" : "",
+        "scrollLine" : "9",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
