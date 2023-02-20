@@ -10,8 +10,14 @@ navbar:
       href: projects.html
     - icon: fa-envelope fa-lg
       href: mailto:<lnlesko@ucla.edu>
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/laurenlesko/
     - icon: fa-github fa-lg
       href: http://github.com/laurenlesko/
+    - icon: fa-calendar
+      href: https://calendly.com/lnlesko/meeting   
 output:
   html_document:
     theme: sandstone
+    include:
+      after_body: footer.html

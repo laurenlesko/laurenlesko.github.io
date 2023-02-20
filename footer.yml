@@ -1,0 +1,10 @@
+footer:
+columns: 
+    - name: Get in touch!
+      items: 
+        - label: lnlesko@ucla.edu
+          href: mailto:<lnlesko@ucla.edu>
+        - label: LinkedIn
+          href: https://www.linkedin.com/in/laurenlesko/ 
+        - label: Meet
+          href: https://calendly.com/lnlesko/meeting 
