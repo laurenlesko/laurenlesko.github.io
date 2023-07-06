@@ -9,15 +9,6 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
- 
- 
-<div class="card">
-  <div class="card-body">
-    <h4 class="card-title">Cycle Study</h4>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">To determine whether people who are naturally cycling experience variation in their a) energy levels and b) interest in potential partners, I am recruiting participants to take surveys for 30 nights in a row and provide saliva samples on two occasions.</p>
-  </div>
-</div>
 
 :::: {.columns}
 ::: {.column width="30%"}
@@ -25,9 +16,9 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 ::: {.column width="60%"}
 
-## Cycle Study
+## Physical Activity Study
 
-To determine whether people who are naturally cycling experience variation in their a) energy levels and b) interest in potential partners, I am recruiting participants to take surveys for 30 nights in a row and provide saliva samples on two occasions.
+To determine whether people who are naturally cycling experience variation in their a) energy levels and b) interest in potential partners, I am recruiting participants to take surveys for 45 nights in a row, provide saliva samples on four occasions, and take LH tests on ten occasions.
 :::
 ::::
 
@@ -42,7 +33,7 @@ To determine whether people who are naturally cycling experience variation in th
 
 ## Scale Development
 
-The number of people someone finds attractive might not be totally dependent on their libido, particularly for women and some sexual minorities (e.g., those on the asexual spectrum). In order to measure libido without conflating it with finding people attractive, I am developing a new sexual desire scale. 
+The number of people someone finds attractive might not be totally dependent on their libido, particularly for women and some sexual orientation minorities (e.g., those on the asexual spectrum). In order to measure libido without conflating it with finding people attractive, I am developing a new sexual desire scale, validating it, and distributing it cross-culturally.
 :::
 ::::
 

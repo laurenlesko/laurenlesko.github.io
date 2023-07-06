@@ -2,7 +2,6 @@
 title: "Welcome!"
 output: html_document
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -22,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 
 ::: {.column width="60%"}
-I’m a fifth-year PhD candidate working in the Psychology Department at UCLA under the advisement of Dr. Martie Haselton. My focus is on the relationship between psychology, hormones, and behavior, particularly for women and sexual minorities. For more information about my research interests, check my Projects page.
+I’m a fifth-year PhD candidate working in the Psychology Department at UCLA under the advisement of Dr. Martie Haselton. My focus is on the relationship between psychology, hormones, and behavior, particularly for women and sexual orientation minorities. For more information about my research interests, check my Projects page.
 <br>
 <br>
 <br>

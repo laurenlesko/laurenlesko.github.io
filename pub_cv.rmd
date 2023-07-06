@@ -6,19 +6,21 @@ output: html_document
 
 <br>
 
-Lesko, L. & Miller, C.* (2022, forthcoming). Avoid allowing the ends to justify the means: __Comment.__ _Personality Science_
+Peng, S., Lesko, L., & Haselton, M. (2024, forthcoming). Hormones and Women’s Social Behavior: What We Know and What We Need to Know. _Annual Review of Psychology._ __Review Article__
 
-Lesko, L., Moore, T., & Haselton, M. (2022). Distinguishing Sexual Attraction from Sexual Desire. __Datablitz__ to be presented at the 2022 annual meeting of the Society for Personality and Social Psychology Sexuality Preconference. 
+Lesko, L., Moore, T., & Haselton, M. (2023). Updating our model of evolved mating psychology: Attraction to many or few potential partners. __Talk__ presented at the 2023 annual meeting of the Human Behavior & Evolution Society Conference. 
+
+Lesko, L. & Miller, C.* (2022). Open Commentaries to "Ten Steps Toward a Better Personality Science: How Quality may be Rewarded More in Research Evaluation” (Leising et al.). _Personality Science,_ 3, 1-61. https://doi.org/10.5964/ps.9227 __Comment.__
+
+Lesko, L., Moore, T., & Haselton, M. (2022). Distinguishing Sexual Attraction from Sexual Desire. __Datablitz__ presented at the annual meeting of the Society for Personality and Social Psychology Sexuality Preconference. 
 
 Gangestad, S., Haselton, M., Dinh, T., & Lesko, L. (2021). Characterizing Women’s Desires Across the Ovulation Cycle. _Handbook of Human Mating_ __Chapter__
-
-Miller, C.,* Venkatesh, A.,* Shearin, O.,* Garza, D.,* Lesko, L., & Strickland, L. M. (2021). Investigating Compliance with Public Health Guidance for COVID-19. __Poster__ presented at UCLA’s 2021 Psychology Undergraduate Research Conference
 
 Lesko, L. (May 2020). Distinguishing between sexual attraction and sexual desire. __Talk__ presented to the Social Area of the UCLA Psychology Department
 
 Lesko, L. (November 2019). Are sexual attraction and sexual desire separable? __Talk__ presented to the Quantitative Area of the UCLA Psychology Department
 
-Lesko, L., & Haselton, M. (May 2019). Distinguishing between sexual attraction and sexual desire: The case of asexuality. __Poster__ presented at the 2019 annual meeting of the Human Behavior and Evolution Society
+Lesko, L., & Haselton, M. (May 2019). Distinguishing between sexual attraction and sexual desire: The case of asexuality. __Poster__ presented at the annual meeting of the Human Behavior and Evolution Society
 
 <br>
 

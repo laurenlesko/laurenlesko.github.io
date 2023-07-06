@@ -13,6 +13,7 @@
 
 <title>Publications &amp; CV</title>
 
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -61,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -81,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -258,8 +260,20 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
+  <a href="https://www.linkedin.com/in/laurenlesko/">
+    <span class="fa fa-brands fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
   <a href="http://github.com/laurenlesko/">
     <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://calendly.com/lnlesko/meeting">
+    <span class="fa fa-calendar"></span>
      
   </a>
 </li>
@@ -281,16 +295,69 @@ $(document).ready(function () {
 *Denotes an undergraduate mentee.
 </p>
 <p><br></p>
-<p>Lesko, L. &amp; Miller, C.* (2022, forthcoming). Avoid allowing the ends to justify the means: <strong>Comment.</strong> <em>Personality Science</em></p>
-<p>Lesko, L., Moore, T., &amp; Haselton, M. (2022). Distinguishing Sexual Attraction from Sexual Desire. <strong>Datablitz</strong> to be presented at the 2022 annual meeting of the Society for Personality and Social Psychology Sexuality Preconference.</p>
-<p>Gangestad, S., Haselton, M., Dinh, T., &amp; Lesko, L. (2021). Characterizing Women’s Desires Across the Ovulation Cycle. <em>Handbook of Human Mating</em> <strong>Chapter</strong></p>
-<p>Miller, C.,* Venkatesh, A.,* Shearin, O.,* Garza, D.,* Lesko, L., &amp; Strickland, L. M. (2021). Investigating Compliance with Public Health Guidance for COVID-19. <strong>Poster</strong> presented at UCLA’s 2021 Psychology Undergraduate Research Conference</p>
-<p>Lesko, L. (May 2020). Distinguishing between sexual attraction and sexual desire. <strong>Talk</strong> presented to the Social Area of the UCLA Psychology Department</p>
-<p>Lesko, L. (November 2019). Are sexual attraction and sexual desire separable? <strong>Talk</strong> presented to the Quantitative Area of the UCLA Psychology Department</p>
-<p>Lesko, L., &amp; Haselton, M. (May 2019). Distinguishing between sexual attraction and sexual desire: The case of asexuality. <strong>Poster</strong> presented at the 2019 annual meeting of the Human Behavior and Evolution Society</p>
+<p>Peng, S., Lesko, L., &amp; Haselton, M. (2024, forthcoming). Hormones
+and Women’s Social Behavior: What We Know and What We Need to Know.
+<em>Annual Review of Psychology.</em> <strong>Review
+Article</strong></p>
+<p>Lesko, L., Moore, T., &amp; Haselton, M. (2023). Updating our model
+of evolved mating psychology: Attraction to many or few potential
+partners. <strong>Talk</strong> presented at the 2023 annual meeting of
+the Human Behavior &amp; Evolution Society Conference.</p>
+<p>Lesko, L. &amp; Miller, C.* (2022). Open Commentaries to “Ten Steps
+Toward a Better Personality Science: How Quality may be Rewarded More in
+Research Evaluation” (Leising et al.). <em>Personality Science,</em> 3,
+1-61. <a href="https://doi.org/10.5964/ps.9227"
+class="uri">https://doi.org/10.5964/ps.9227</a>
+<strong>Comment.</strong></p>
+<p>Lesko, L., Moore, T., &amp; Haselton, M. (2022). Distinguishing
+Sexual Attraction from Sexual Desire. <strong>Datablitz</strong>
+presented at the annual meeting of the Society for Personality and
+Social Psychology Sexuality Preconference.</p>
+<p>Gangestad, S., Haselton, M., Dinh, T., &amp; Lesko, L. (2021).
+Characterizing Women’s Desires Across the Ovulation Cycle. <em>Handbook
+of Human Mating</em> <strong>Chapter</strong></p>
+<p>Lesko, L. (May 2020). Distinguishing between sexual attraction and
+sexual desire. <strong>Talk</strong> presented to the Social Area of the
+UCLA Psychology Department</p>
+<p>Lesko, L. (November 2019). Are sexual attraction and sexual desire
+separable? <strong>Talk</strong> presented to the Quantitative Area of
+the UCLA Psychology Department</p>
+<p>Lesko, L., &amp; Haselton, M. (May 2019). Distinguishing between
+sexual attraction and sexual desire: The case of asexuality.
+<strong>Poster</strong> presented at the annual meeting of the Human
+Behavior and Evolution Society</p>
 <p><br></p>
-<p><a href="https://github.com/laurenlesko/laurenlesko.github.io/raw/main/files/CV.pdf" class="btn btn-default">Download full CV</a></p>
+<p><a href="https://github.com/laurenlesko/laurenlesko.github.io/raw/main/files/CV.pdf" class="btn btn-default">Download
+full CV</a></p>
 
+<br>
+<br>
+<br>
+<br>
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #3E3F3A;
+  color: #ced4da;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <h4>Get in touch!</h4>
+  <div class="social">
+    <a href="mailto:<lnlesko@ucla.edu>"><i class="fa fa-envelope fa-lg"></i></a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/laurenlesko/"><i class="fa fa-linkedin"></i></a>
+    &nbsp;
+    <a href="https://calendly.com/lnlesko/meeting"><i class="fa fa-calendar"></i></a>
+  </div>
+</div>
 
 
 
